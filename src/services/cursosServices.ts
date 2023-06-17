@@ -1,7 +1,6 @@
 import { PrismaClient } from '@prisma/client'
 import { CursosEntry } from '../types'
 
-
 const prisma = new PrismaClient()
 
 export const getCursos = async () => { 

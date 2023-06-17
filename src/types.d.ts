@@ -7,7 +7,7 @@ export interface CapacitacionesEntry {
 
 }
 export interface CursosEntry {
-    id: number,
+    id?: number,
     name: string,
     contents: string,
     duration: number,
